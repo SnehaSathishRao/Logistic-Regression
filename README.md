@@ -1,6 +1,7 @@
 # Logistic-Regression
 **About Algorithm:**<br />
-
+  Logistic Regression is one of the basic and popular algorithm to solve a classification problem. It is named as ‘Logistic Regression’, because it’s underlying technique is quite the same as Linear Regression. Does NOT assume a linear relationship between the dependent variable and the independent variables, but it does assume linear relationship between the logit of the explanatory  variables and the response and hence the name logistic regression.<br />
+  In this,I have used sklearn to train train my logistic regression models.There are several parameters to be tuned but i chose to tune 'C'.Performed both grid search and random search.We also have another interesting hyperparameter called 'penalty'.Tried both lasso and ridge regularizations.<br />
 **Data:**<br />
     I have used Amazon data which contains summary of reviews that is featurized using NLP techniques(Bag of words,TfIdf,Average word2vec,TfIdf word2vec) gives higher dimensional.The Amazon data that is been used has already been pre-processed and loaded.<br />
 **Summary**:  <br />
